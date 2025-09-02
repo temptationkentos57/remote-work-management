@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Chào mừng đến với Ứng dụng Quản Lý Công Việc Từ Xa!');
+  res.send('Chào mừng đến với Ứng dụng Quản Lý Công Việc!');
 });
 
 app.listen(port, () => {
