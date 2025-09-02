@@ -15,4 +15,5 @@ app.get('/tasks', (req, res) => {
   res.json({ status: 'success', data: [{ id: 1, title: 'Task 1', completed: false }] });
 });
 
+// Export the Express app
 module.exports = app;
