@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/tasks', (req, res) => {
-  res.json([{ id: 1, title: 'Task 1', completed: false }]);
+  res.json({ status: 'success', data: [{ id: 1, title: 'Task 1', completed: false }] });
 });
 
 module.exports = app;
