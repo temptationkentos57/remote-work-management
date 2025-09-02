@@ -7,7 +7,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/tasks', (req, res) => {
-  res.json([{ id: 1, title: 'Nhiệm vụ 1', completed: false }]);
+  res.json([{ id: 1, title: 'Task 1', completed: false }]);
 });
 
 module.exports = app;
